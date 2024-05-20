@@ -8,9 +8,9 @@ body{
     width: 100vw;
     height: 100vh;
     justify-content: center;
+    align-items: center;
     display: flex;
-    background-image: url(https://i.pinimg.com/originals/ad/1e/2c/ad1e2c0c93696b30a9a6c916cb73d4b7.jpg);
-    background-size: cover;
+    background-color: #99B3BD;
     overflow-x: hidden;
     font-family: roboto;
 }
