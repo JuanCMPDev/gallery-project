@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #ccc;
+}
+
 
 .slider .slides:nth-child(1),
 .slider .slides:nth-child(2)
@@ -79,5 +83,47 @@
 }
 
 @media (max-width: 900px){
-    
+    .slider{
+        position: absolute;
+        inset: 40px 40px 200px 40px;
+    }
+
+    .slider .slides{
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;;
+        width: 100px;
+        height: 100px;
+        bottom: -80px;
+        top: initial;
+    }
+
+    .slider .slides:nth-child(3) {
+        left: 0;
+    }
+    .slider .slides:nth-child(4) {
+        left: 120px;
+    }
+    .slider .slides:nth-child(5) {
+        left: 240px;
+        background-size: cover;
+    }
+    .slider .slides:nth-child(6) {
+        left: 360px;
+        background-size: cover;
+    }
+    .slider .slides:nth-child(7) {
+        left: 480px;
+        background-size: cover;
+    }
+    .slider .slides:nth-child(8) {
+        left: 600px;
+        background-size: cover;
+    }
+
+
+    .slider .slides:nth-child(1),
+    .slider .slides:nth-child(2)
+    {
+        top: initial;
+        bottom: 0px;
+    }
 }
