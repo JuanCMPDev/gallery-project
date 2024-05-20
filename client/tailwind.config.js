@@ -9,6 +9,10 @@ export default {
       flex: {
         '0-0-auto': '0 0 auto',
       },
+      inset: {
+        '20': '80px',
+        '50': '200px',
+      }
     },
   },
   plugins: [],
